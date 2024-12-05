@@ -50,10 +50,14 @@ Before running the program, ensure you have the following installed:
   - Q build system (QBS)
 
 ## Setup
-Clone the Repository:
+Clone the Repository with submodules:
 ```bash
-  git clone https://github.com/LeannAlexandra/reImagine.git
+  git clone --recurse-submodules https://github.com/LeannAlexandra/reImagine.git
   cd reImagine
+```
+Optional: update submodules
+```bash
+  git submodule update --init --recursive
 ```
 Compile the Program:
 ```bash
